@@ -1,0 +1,46 @@
+body{
+ background-color:rgb(47, 45, 45);
+}
+body h1{
+    color: white;
+}
+.main{
+    display: flex;
+    padding:50px;
+    justify-content: space-between;
+}
+.text{
+    display: inline;
+    /* border:5px solid black; */
+    margin: 70px;
+    font-size: 30px;
+    color: white;
+    border-radius: 20px;
+}
+.text:hover{
+    /* background-color: red; */
+    transform:scale(0.8);
+    transition: 4s;
+}
+.video{
+    display: inline;
+    margin: 70px;
+    align-self: center;
+}
+.video video{
+    height: 500px;
+    width: 500px;
+}
+.video:hover{
+    transform:scale(1.1);
+    transition: 4s;
+    transition: all;
+}
+@media (max-width:700px) {
+    .main{
+        flex-direction: column;
+    }
+}
+
+
+    
